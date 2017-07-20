@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>UpgradeMvc</id>
+        <version>1.0.0</version>
+        <title>Upgrade MVC</title>
+        <authors>Sathya Prabu Rajagopal</authors>
+        <owners>Sathya Prabu Rajagopal</owners>
+        <projectUrl>https://github.com/sathyarajagopal/mvc-upgrade</projectUrl>
+        <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This package upgrades your web application from older versions of MVC to the newer version.</description>
+        <releaseNotes>Please visit https://github.com/sathyarajagopal/mvc-upgrade to view the release notes.</releaseNotes>
+        <language />
+        <tags>Microsoft AspNet Mvc AspNetMvc MvcUpgrade UpgradeMvc</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Mvc" version="[5.2.3]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+        <file src="content\**" target="content" />
+    </files>
+</package>
